@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AileDrive - Location de voitures avec puissance et liberté</title>
+    <meta name="description" content="AileDrive propose des services de location de voitures offrant une expérience palpitante et aventureuse. Réservez dès maintenant pour profiter de la puissance et de la liberté de nos véhicules." />
+    <meta name="keywords" content="AileDrive, location de voitures, dragon, aventure, puissance, voiture de course, voiture de luxe, réservation de voitures" />
+    <link rel="icon" href="images/logolocation 1.png" type="image/icon type">
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<link rel="logo" href="">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+</head>
+<body>
+
+    <section class="home">
+        <header class="header">
+        <div class="logo"><img src="images/LOGOLOCATION.png" alt=""></div>
+        <nav class="navbar">
+            <ul> 
+                <li><a href="#" class="nav-link active" >Accueil</a></li>
+                <li><a href="#offre" class="nav-link">Offres</a></li>
+                <li><a href="#reservation" class="nav-link">Réservation</a></li>
+                <li><a href="#avisclient" class="nav-link">Avis-clients</a></li>
+                <li><a href="#aboutus" class="nav-link">Notre Entreprise</a></li>
+                <li><a href="#contact" class="nav-link"> Contactez-nous</a></li>
+
+            </ul>
+        </nav>
+        <div class=" bx bx-menu" id="hamburger"></div>
+    </header>
+    <div class="homecontent">
+        <div class="hometext">
+            <h1> Conduisez vers la liberté avec AILE-DRIVE</h1>
+            <p>Découvrez une liberté sans limites avec AileDrive. Louez votre voiture idéale et partez à l'aventure en toute confiance. Faites le pas et laissez-nous vous offrir une expérience de conduite inoubliable.</p>
+<a href="#" class="cta">Réservez Votre Voyage!</a>  </div>
+    
+    <div class="homeimage">
+        <img src="images/bg.png" alt="">
+    </div>
+    </div>
+
+<div class="inf1"><h2>100% <br> En ligne</h2></div>
+<div class="inf2"> <h2>100% <br> Sécurisé</h2></div>
+</section>
+<section class="offre" id="offre">
+    <div class="heading">
+        <h1>Nos <span>Offres</span></h1>
+    </div>
+    <div class="offer">
+        <div class="voiturelist">
+            <button class="car-button" onclick="changeImageAndButtonColor('bmw.png', this)">BMW</button>
+            <button class="car-button" onclick="changeImageAndButtonColor('seat.png', this)">Alfa-Romeo</button>
+            <button class="car-button" onclick="changeImageAndButtonColor('audi.png', this)">Audi</button>
+            <button class="car-button" onclick="changeImageAndButtonColor('mercedes.png', this)">Mercedes</button>
+            <button class="car-button" onclick="changeImageAndButtonColor('porsche.png', this)">Porsche</button>
+            <button class="car-button" onclick="changeImageAndButtonColor('lambo.png', this)">Lamborghini</button>
+        </div>
+        <div class="carimg" id="hihi">
+            <img src="bmw.png" alt="" id="car-image" width="100px">
+        </div>
+    </div>
+</section>
+    <section class="reservation" id="reservation">
+        
+
+
+        <div class="booking-section">
+            <h2 class="heading">Réservez <span>Maintenant!</span></h2>
+            <form id="booking-form">
+                <label for="lieu">Votre Nom: </label>
+              <input type="text" id="Lieu" required placeholder="Votre Nom ici">
+                <label for="lieu">Lieu de prise en charge:</label>
+              <input type="text" id="Lieu" required placeholder="Aéroport de Lille-lequin...">
+            
+              <label for="pickup-date">Date de prise en charge:</label>
+              <input type="date" id="pickup-date" required>
+              <label for="return-date">Date de restitution:</label>
+              <input type="date" id="return-date" required>
+              <label for="car-type">voiture:</label>
+              <select id="car-type">
+                <option value="bmw">Bmw</option>
+                <option value="audi">Audi</option>
+                <option value="porsche">Porsche</option>
+                <option value="Alfa">Alfa Romeo</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="lambo">Lamborghini</option>
+
+
+              </select>
+              <button type="submit" id="book-now-btn" class="resrsub">Réserver!</button>
+            </form>
+        </div>
+
+    </section>
+<section class="avisclient" id="avisclient">
+<div class="heading"><h1> Avis <span>Client!</span></h1></div>
+<div class="aviswrapper">
+    <div class="avisbox mySwiper">
+        <div class="aviscontent swiper-wrapper">
+             <div class="avislide swiper-slide">
+<img src="images/persona-marketing-2-exemples-a-telecharger.png" alt="">
+       <h3>Marie</h3>
+       <p>J'ai loué une voiture chez AileDrive pour mes vacances et j'ai été impressionné par la qualité du service. Je recommande vivement !</p>
+</div>
+<div class="avislide swiper-slide">
+    <img src="images/alevy_avatar_1450133221.jpeg" alt="">
+           <h3>Pierre</h3>
+           <p>Un grand merci à l'équipe d'AileDrive pour leur professionnalisme. La voiture était en excellent état et le processus de réservation était simple et rapide.</p>
+    </div> <div class="avislide swiper-slide">
+        <img src="images/jeune-belle-femme-pull-chaud-rose-aspect-naturel-souriant-portrait-isole-cheveux-longs_285396-896.jpg.webp" alt="">
+               <h3>Sophie</h3>
+               <p>La location d'une voiture avec AileDrive a rendu mon voyage plus agréable et pratique. Je referai appel à leurs services à coup sûr !</p>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+
+</section>
+
+
+<section class="aboutus" id="aboutus">
+    <div class="heading"><h1>Chez <span>AileDrive</span> </h1></div>
+    <div class="aboutcontent">
+<img src="images/pngaaa.com-1444699.png" alt="" class="aboutusimg
+">
+<p>Nous sommes une agence de location de voitures de confiance, dédiée à offrir des services exceptionnels et des expériences inoubliables à nos précieux clients. Avec notre passion pour les voyages et notre engagement envers l'excellence, nous nous efforçons de rendre votre voyage aussi fluide et agréable que possible, en mettant à votre disposition une flotte de véhicules de qualité supérieure. <br> <br> À AileDrive, nous croyons que la liberté commence sur la route. Nous comprenons que chaque voyage est unique, c'est pourquoi nous vous proposons un large choix de voitures bien entretenues pour répondre à vos besoins spécifiques. Que vous ayez besoin d'une petite citadine économique, d'un SUV spacieux pour une escapade en famille ou d'une berline de luxe pour un événement spécial, nous avons le véhicule idéal qui vous permettra de voyager en toute sérénité. <br><br>Notre équipe professionnelle et chaleureuse est là pour vous accompagner tout au long de votre expérience de location. Nous mettons un point d'honneur à offrir un service client de premier ordre, en veillant à ce que chaque détail soit pris en compte pour vous offrir une expérience de conduite sans soucis. Que ce soit pour des conseils personnalisés, une assistance en cas de besoin ou des informations sur les meilleurs itinéraires, nous sommes là pour rendre votre voyage aussi agréable que possible. <br><br> Rejoignez-nous dès maintenant et découvrez pourquoi AileDrive est le partenaire idéal pour toutes vos aventures sur la route, nous vous offrons la tranquillité d'esprit dont vous avez besoin pour profiter pleinement de votre voyage.
+</p>
+</div>
+</section>
+<section class="contact" id="contact">
+    <div class="heading"> <h1>Contactez <span>Nous!</span></h1></div>
+    
+        <form action="#">
+            <div class="inputbox">
+                <input type="text" placeholder="Nom (Obligatoire)" required>
+                <input type="email" placeholder="Email (Obligatoire)" required>
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="Numéro de téléphone (Obligatoire)">
+                <input type="text" placeholder="Objet (Obligatoire)" required>
+            </div>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Votre message"></textarea> <br>
+            <input type="submit" value="Envoyer" class="sub">
+        </form>
+    </section>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>AILE-DRIVE</h3>
+
+            <p class="footer-links">
+                <a href="#" class="link-1"> Accueil</a>
+                
+                <a href="#">Offres</a>
+            
+                <a href="#">Réservation</a>
+            
+                <a href="#">Avis-client</a>
+                
+                <a href="#">Notre Entreprise</a>
+                
+                <a href="#">Contactez nous</a>
+            </p>
+
+            <p class="footer-company-name">Ourichine Amine © 2023</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class='bx bx-current-location'></i>
+                <p>555 rue de marbrerie <br> Lille 59800 France</p>
+            </div>
+
+            <div>
+                <i class='bx bxs-phone-call' ></i>                <p>+33 123 456 789</p>
+            </div>
+
+            <div>
+                <i class='bx bx-envelope' ></i>                <p> ailedrive@rent.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>Pourquoi Aile-Drive?</span>
+                Découvrez l'excellence avec Aile Drive : service clientèle hors pair, flotte diversifiée, tarifs compétitifs, praticité, sécurité et une expérience personnalisée inoubliable.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+<script >
+
+let activeButton = null;
+
+function changeImageAndButtonColor(imageSrc, button) {
+    const carImage = document.getElementById('car-image');
+
+    if (activeButton) {
+        activeButton.classList.remove('active');
+    }
+
+    button.classList.add('active');
+    carImage.src = imageSrc;
+    activeButton = button;
+}
+   
+</script>
+</body>
+</html>
